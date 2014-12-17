@@ -1,0 +1,23 @@
+{
+  "name": "wp-multi-network",
+  "title": "WP Multi-Network",
+  "description": "Adds a Network Management UI for super admins in a WordPress Multisite environment",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnjamesjacoby/wp-multi-network.git"
+  },
+  "author": {
+    "name" : "John James Jacoby",
+    "url" : "http://jjj.me"
+  },
+  "license": "GPL-2.0+",
+  "bugs": {
+    "url": "https://github.com/johnjamesjacoby/wp-multi-network/issues"
+  },
+  "homepage": "https://wordpress.org/plugins/wp-multi-network/",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-checktextdomain": "^0.1.1",
+    "load-grunt-tasks": "^1.0.0"
+  }
+}
