@@ -524,6 +524,7 @@ function move_site( $site_id, $new_network_id ) {
 
 	// Allow 0 network?
 	if ( ENABLE_NETWORK_ZERO && ( 0 == $site->site_id ) ) {
+		$old_network         = new stdClass();
 		$old_network->domain = 'holding.blogs.local';
 		$old_network->path   = '/';
 		$old_network->id     = 0;
@@ -538,6 +539,7 @@ function move_site( $site_id, $new_network_id ) {
 
 	// Allow 0 network?
 	if ( ENABLE_NETWORK_ZERO && ( 0 == $new_network_id ) ) {
+		$new_network         = new stdClass();
 		$new_network->domain = 'holding.blogs.local';
 		$new_network->path   = '/';
 		$new_network->id     = 0;
